@@ -27,8 +27,6 @@ Tag.belongTOMany(Product,{
   foreignKey: 'tag_id'
 });
 
-
-
 module.exports = {
   Product,
   Category,

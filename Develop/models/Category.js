@@ -1,6 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
+const Product = require('./Product.js');
+const ProductTag = require('./ProductTag.js');
+const Tag = require('./Tag.js');
 
 class Category extends Model {}
 
@@ -18,8 +21,9 @@ Category.init(
       type: DataTypes.STRING,
       allowNull: false,
     }
-  },
-  {
+},
+
+ {
     sequelize,
     timestamps: false,
     freezeTableName: true,
