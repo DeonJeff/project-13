@@ -1,6 +1,11 @@
 Object-Relational Mapping (ORM): E-Commerce Back End 
 
+
+Description
+A mysql database and application backend for an e-commerce site. Built using MySQL2, Express, Sequelize and dotenv
 User Story
+
+
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
